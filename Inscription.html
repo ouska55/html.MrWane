@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+<div class="Yannick">
+    <div class="bb">
+    <table border="4px">
+        <legend>ISNCRIPTIONS</legend>
+        <center>
+        <tr>
+            
+                <td>ANNEE SCOLAIRE</td>
+                <td>
+                    <p>2022-2023</p>
+                </td>
+            </tr>
+        <tr>
+        <ul>
+            <td> NOM</td>
+            <td>
+                <form action="form.php" method="post">
+                    <input type="name" placeholder="nom">
+                </form>
+            </td>
+        </tr>
+         </div>
+        <div class="bb">
+        <tr>
+            <td> PRENOM</td>
+            <td>
+                <form action="form.php" method="post">
+                    <input type="name" placeholder="prenom">
+                </form>
+            </td>
+        </tr>
+        </div>
+        <div class="bb">
+        <tr>
+            <td>SEXE</td>
+            <td>
+                <form action="form.php" method="post">
+                    <input type="radio" name="sexe" id="mal">
+                    <label for="mal">HOMME</label>
+                    <input type="radio" name="sexe" id="fem">
+                    <label for="fem">FEMME</label>
+                </form>
+            </td>
+        </tr>
+        </div>
+        <div class="bb">
+        <tr>
+            <td>ADDRESS</td>
+            <td> 
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+        </div>
+        <div class="bb">
+        <tr>
+            <td>CLASSE</td>
+            <td>
+                <form action="form.php" method="post">
+                    
+                    <select name="" id="">
+                        <option value="">GLRS</option>
+                        <option value="">ETSE</option>
+                        <option value="">MOSIEF</option>
+                        <option value="">IAGE</option>
+                        <option value="">MAIE</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        </div>
+        <div class="bb">
+        <tr>
+            <th colspan="2">
+                <button>RESET</button>
+                <button>SUBMIT</button>
+            </th>
+        </tr>
+    </center>
+    </table>
+</div>
+
+<style>
+    .Yannick{
+        background-color:none;
+        width: 50%;
+    }
+    table,tr,td,th{
+        margin: 3%;
+    }
+    table{
+        margin-left: 15%;
+        padding: 10%;
+        width: 80%;
+    }
+    td{
+        margin: 30%;
+        padding: 1%;
+    }
+    legend{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 5%;
+        margin-left: 10%;
+        text-decoration: underline;
+    }
+    button{
+        margin: 5%;
+    }
+    body{
+        text-align: center;
+    }
+
+
+</style>
+
+</body>
+</html>
